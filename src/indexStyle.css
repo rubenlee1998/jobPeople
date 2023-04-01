@@ -8,8 +8,13 @@
 header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* set a high z-index value */
 }
 
 h1 {
@@ -50,7 +55,10 @@ main {
   flex-wrap: wrap;
   padding: 20px;
 }
-
+.section {
+  position: relative;
+  z-index: 1; /* set a lower z-index value than the header */
+}
 .job-container {
   display: flex;
   overflow-x: hidden;
@@ -90,10 +98,89 @@ main {
   background-color: #0069d9;
 }
 
+.scroll-right-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 5vh;
+  height: 5vh;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.scroll-left-button {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 5vh;
+  height: 5vh;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.scroll-button:hover {
+  background-color: #555;
+}
+
 /* Footer styles */
 footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+.section {
+  position: relative;
+  z-index: 1; /* set a lower z-index value than the header */
+}
+.second-section {
+  background-image: url(../img/office.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.third-section {
+  background-image: url(../img/stair.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+.fourth-section {
+  background-image: url(../img/test1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+.fifth-section {
+  background-image: url(../img/test2.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+.sixth-section {
+  background-image: url(../img/test3.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100vh;
 }
