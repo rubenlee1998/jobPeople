@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(168, 163, 181);
+}
+
 /* Header styles */
 
 header {
@@ -27,7 +31,7 @@ p {
 
 /* Navigation styles */
 nav {
-  background-color: green;
+  background-color: rgb(246, 64, 9);
   border-bottom: 1px solid #ddd;
   height: 70px;
   line-height: 70px;
@@ -170,7 +174,11 @@ footer {
 .section {
   position: relative;
   z-index: 1; /* set a lower z-index value than the header */
-  background-color: grey;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.section.active {
+  opacity: 1;
 }
 .second-section {
   background-image: url(../img/office.jpg);

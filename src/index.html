@@ -11,9 +11,13 @@
   </head>
   <body>
     <header>
-      <a href="#"><img src="../img/icon.png" alt="Your Website Logo" /></a>
       <nav>
         <ul>
+          <li>
+            <a href="#"
+              ><img src="../img/icon.png" alt="Your Website Logo"
+            /></a>
+          </li>
           <li><a href="#">HOME</a></li>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">CONTACT</a></li>
@@ -102,13 +106,34 @@
           <button class="scroll-button scroll-right-button">&rarr;</button>
         </main>
       </div>
-      <div class="section fp-auto-height second-section"></div>
-      <div class="section fp-auto-height third-section"></div>
-      <div class="section fp-auto-height fourth-section"></div>
-      <div class="section fp-auto-height fifth-section"></div>
-      <div class="section fp-auto-height sixth-section"></div>
+      <div
+        class="section fp-auto-height second-section lazy-load"
+        data-src="path-to-content"
+        alt="image description"
+      ></div>
+      <div
+        class="section fp-auto-height third-section lazy-load"
+        data-src="path-to-content"
+        alt="image description"
+      ></div>
+      <div
+        class="section fp-auto-height fourth-section lazy-load"
+        data-src="path-to-content"
+        alt="image description"
+      ></div>
+      <div
+        class="section fp-auto-height fifth-section lazy-load"
+        data-src="path-to-content"
+        alt="image description"
+      ></div>
+      <div
+        class="section fp-auto-height sixth-section lazy-load"
+        data-src="path-to-content"
+        alt="image description"
+      ></div>
     </div>
     <script src="scroll.js"></script>
+    <script src="imageLoad.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../fullPage.js-master/fullPage.js-master/dist/fullpage.min.js"></script>
     <script>
