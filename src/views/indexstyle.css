@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main section styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.job-container {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.job {
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 200px;
+  max-width: 500px;
+}
+
+.job h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.job button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.job button:hover {
+  background-color: #0069d9;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,70 @@
+.hero {
+  background-color: #f2f2f2;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.font-domaine {
+  font-family: "Domaine Display", serif;
+  font-size: 2rem;
+}
+
+.search-bar-package {
+  display: flex;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-bar-icon {
+  margin-right: 0.5rem;
+}
+
+.search-form input[type="search"] {
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.long-placeholder {
+  display: none;
+}
+
+.submit-button {
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 0.25rem;
+  margin-left: 0.5rem;
+}
+
+.popular {
+  margin-top: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.text-body-2 {
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.text-body-2:hover {
+  color: #28a745;
+}

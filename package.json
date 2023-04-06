@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "dev",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/index.js"
+    "dev": "nodemon --exec babel-node src/index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
     "@babel/core": "^7.21.4",
     "@babel/node": "^7.20.7",
     "@babel/preset-env": "^7.21.4",
+    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.22"
   },
   "dependencies": {
